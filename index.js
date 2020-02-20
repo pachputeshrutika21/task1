@@ -1,6 +1,6 @@
-/* eslint-disable*/
-const butt=document.querySelector('.butt');
-console.log(butt);
+const button1=document.querySelector('.butt');
+console.log(button1);
+
 function calculate()
 {
     var first=parseInt(document.getElementById('first').value);
@@ -35,6 +35,7 @@ function calculate()
    
     console.log(`first no is::${first}`);
 console.log(`second no is::${second}`);
+
 }
 
-butt.addEventListener('click',calculate);
+button1.addEventListener('click',calculate);
