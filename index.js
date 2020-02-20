@@ -1,7 +1,7 @@
-const button1=document.querySelector('.butt');
-console.log(button1);
+let button1=document.querySelector('.butt');
+//console.log(button1);
 
-function calculate()
+let calculate=(first=10,second=20)=>
 {
     var first=parseInt(document.getElementById('first').value);
     var second=parseInt(document.getElementById('second').value);
@@ -38,4 +38,4 @@ console.log(`second no is::${second}`);
 
 }
 
-button1.addEventListener('click',calculate,false);
+button1.addEventListener('click',calculate());
