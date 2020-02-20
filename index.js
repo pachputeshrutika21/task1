@@ -38,4 +38,4 @@ console.log(`second no is::${second}`);
 
 }
 
-button1.addEventListener('click',calculate);
+button1.addEventListener('click',calculate,false);
