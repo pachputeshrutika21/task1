@@ -1,7 +1,7 @@
 let button1=document.querySelector('.butt');
-//console.log(button1);
 
-let calculate=(first,second)=>
+
+var calculate=(first,second)=>
 {
     var first=parseInt(document.getElementById('first').value);
     var second=parseInt(document.getElementById('second').value);
