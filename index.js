@@ -24,7 +24,7 @@ var calculate=(first,second)=>
     {
         if(first==0||second==0)
         {
-            alert("enter correct no");
+           console.warn("enter correct value");
         }
         document.getElementById('result').value=first/second;
     }
