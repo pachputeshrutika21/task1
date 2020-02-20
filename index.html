@@ -1,1 +1,36 @@
-<div id="app"></div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Calculator
+    </title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+          
+        <label for="first">Enter NO.</label>
+        <input type="number" class="first" name="first" id="first" required>
+        
+        <br>
+        <select id="operator" value="operator">
+            <option value="+">ADD</option>
+            <option value="-">SUB</option>
+            <option value="*">Mult</option>
+            <option value="/">DIV</option>
+        </select>
+        <br>
+        <label for="second">Enter NO.</label>
+        <input type="number" class="second" name="second" id="second" required>
+        <br>
+       
+        <button type="button" onclick="calculate()" class="butt">submit</button>
+        <button type="reset">reset</button>
+        <br>
+        The result is::<input type="text" class="result" id="result">
+      </form>
+    </div>
+    <script type="text\javascript" src="index.js"></script>
+
+  </body>
+</html>
